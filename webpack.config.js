@@ -13,8 +13,7 @@ module.exports = {
       {
         test: /\.[jt]sx?$/,
         include: [
-          path.resolve(__dirname, 'src'),
-          path.resolve(__dirname, 'styleguide')
+          path.resolve(__dirname, 'src')
         ],
         use: [
           {
